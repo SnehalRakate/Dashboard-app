@@ -1,0 +1,32 @@
+.breadcrumb {
+    margin: 15px 0;
+    font-size: 12px;
+    color:#141414;
+  }
+  
+  .breadcrumb ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Remove extra margin */
+  }
+  
+  .breadcrumb li {
+    margin-left: 139px; /* Remove left margin */
+    margin-right: -130px; /* Space between breadcrumb items */
+    text-decoration: none;
+  }
+  
+  .breadcrumb li a {
+    font-size: 22px;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #141414;
+    text-decoration: none;
+  }
+  
+  .breadcrumb li span {
+    margin-right: 5px; /* Space for the separator */
+    color: #555; /* Color for the separator (e.g., '>' or '/') */
+  }
+  

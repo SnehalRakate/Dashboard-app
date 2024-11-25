@@ -1,0 +1,32 @@
+.offcanvas-body {
+    height: 100%;
+    background-color: #F9FAFC;
+}
+
+#canvasinput {
+    padding-left: 10px;
+    margin-top: 25px;
+    margin-left: 93px;
+    width: 210px;
+    height: 60px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.4000000059604645px solid #E0E0E0;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+#QueueBtn {
+    color: black;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 71px;
+    width: 95px;
+    height: 34px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 1px #00000029;
+    border: 0.4000000059604645px solid #E0E0E0;
+    border-radius: 4px;
+    opacity: 1;
+}

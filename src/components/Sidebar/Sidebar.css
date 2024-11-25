@@ -1,0 +1,60 @@
+#sidebar {
+  position: absolute;
+  top: 313px;
+  left: 0px;
+  width: 96px;
+  height: 420px;
+  background-color: #FFFFFF;
+  overflow-y: auto;
+  transition: all 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /* Align items at the top */
+  align-items: center;
+  border-radius: 0px 8px 8px 0px;
+  padding: 0;
+}
+
+.sidebar-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.sidebar-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Center align items */
+  padding: 10px 0;
+  /* Add spacing between items */
+  font-size: 14px;
+  color: #9e9ea4;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.sidebar-list-item:hover {
+  background-color: #13255B;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar-list-item a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  /* Align icon and name in one column */
+  align-items: center;
+}
+
+.icon {
+  font-size: 24px;
+  /* Increase icon size for better visibility */
+  margin-bottom: 5px;
+  /* Add space between icon and text */
+}

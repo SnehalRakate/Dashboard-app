@@ -1,0 +1,60 @@
+.header {
+        width: 1366px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px;
+        position:fixed;
+        cursor: pointer;
+        background-color:#FFFFFF;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        transition: border-color 0.3s ease, background-color 0.3s ease;
+    }
+    
+      .logo {
+        color: #141414;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        gap: 10px; 
+      }
+      
+      .menu-icon {
+        font-size: 1.5rem; /* Adjust size of menu icon */
+        cursor: pointer;
+      }
+      
+      input#fname {
+        padding-left: 10px;
+        font-size: 20px;
+        top: 10px;
+        left: 461px;
+        width: 450px;
+        height: 40px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #E1E1E1;
+        border-radius: 6px;
+        opacity: 1;
+      }
+      
+      .header-icons {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+      }
+      
+      .header-icons .profile {
+        background-color: #002341;
+        color: white;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+      }
+      
