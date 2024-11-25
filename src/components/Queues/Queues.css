@@ -1,0 +1,109 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .queue-list {
+    width: 30%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .queue-list h2 {
+    margin-top: 0;
+  }
+  
+  .queue-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .invoice-table {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  .invoice-table h2 {
+    margin-top: 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #f1f1f1;
+  }
+   */
+
+   
+  .container {
+    background-color: #EDF0F4;
+    display: flex;
+  }
+   .queue-list {
+    margin-top: 20px;
+    padding: 0px 40px 10px 0px;
+    font-size: 14px;
+    list-style-type: none;
+    border-radius: 10px;
+    background-color:white;
+    text-decoration: none;
+    width: 140px;
+    border-right: 1px solid #ccc;
+  }
+  .queue-item {
+    list-style-type: none;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+.AddQue{
+width: 146px;
+height: 32px;
+background-color: #D5E3FF;
+box-shadow: 0px 1px 1px #00000029;
+border-radius: 4px;
+opacity: 1;
+border: none;
+  }
+
+  .status {
+    text-transform: capitalize;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .status.approved {
+    color: green;
+  }
+  
+  .status.pending {
+   color: orange;
+  }
+  
+  .status.rejected {
+   color: red;
+  }
+  
+  .status.in-progress {
+   color: blue;
+  }
